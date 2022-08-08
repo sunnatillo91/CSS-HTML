@@ -1,0 +1,59 @@
+<html>
+<head>
+   <style>
+       body {
+           background-color: 00ff00;
+           color: green;
+           background-image: url("../images/landscape.jpg"); 
+       }
+       h1 {
+           text-decoration: underline;
+           font-style: italic;
+           font-family: serif, inherit, fantasy, monospace, sans-serif;
+           border: 1px black solid;
+           padding: 30px 25px 20px 15px;
+
+       }
+       h2 {
+           border: 2px red dotted;
+           padding: 0 0 0 20px;
+           background-color: blue;
+           text-decoration: overline;
+       } 
+       .h2 {
+           color: yellow;
+       }
+       .h3 {
+           color: blueviolet;
+            border: 2px red double;
+           text-decoration: line-through;
+           padding-top: 15px;
+           padding-right: 20px;
+           padding-bottom: 120px;
+           padding-left: 200px;
+       }
+       .keyingi {
+           color: f2f2f2;
+           border: 2px red inset;
+           padding: 13px;
+           text-decoration: inherit;
+           margin: 30px 20px 100px 50px;
+           
+       }
+       .oxirgi {
+           color: blue;
+           border: 2px red outset;
+           padding: 10px 20px 30px 40px;
+       }
+    
+    <title>Hello</title>
+    </style>        
+</head>
+<body>
+    <h1>Hello world!</h1>
+    <h2 class="h2"> Second world</h2>
+    <h3 class="h3">Third world</h3>
+    <h4 class="keyingi">Fourth world</h4>
+    <h5 class="oxirgi">Fifth world</h5>
+</body>
+</html>

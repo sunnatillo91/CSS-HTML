@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+    body {
+        background-color: red;
+        background-image: url("../images/landscape.jpg");       background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+
+            }
+        </style>
+    </head>
+</html>
